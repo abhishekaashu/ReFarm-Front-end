@@ -1813,7 +1813,7 @@ h2::after {
 
 
 /* hover */
-
+	
 #gta{
   position: relative;
   background: url(../images/tracking.jpg) no-repeat 0px 0px;
@@ -1825,5 +1825,11 @@ h2::after {
 
 
 }
+
+#gta .shop{
+  margin: 85% auto 5% 80%;
+}	
+
+
 
 
