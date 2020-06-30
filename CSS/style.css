@@ -1676,15 +1676,7 @@ h4.tittle-ab {
   	display: inline-block;
 }
 
-/* h2 {
 
-	font-size: 26px;
-	font-weight: 300;
-	position: relative;
-	margin: 0 0 50px 0;
-	text-transform: uppercase;
-	display: inline-block;
-} */
 h2::after {
 	content: "";
 	width: 50%;
@@ -1834,9 +1826,4 @@ h2::after {
 
 }
 
-/* .track-img{
-  width: 140%;
-  height: auto;
-  padding-right: 50px;
 
-} */
