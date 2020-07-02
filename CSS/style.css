@@ -1676,7 +1676,15 @@ h4.tittle-ab {
   	display: inline-block;
 }
 
+/* h2 {
 
+	font-size: 26px;
+	font-weight: 300;
+	position: relative;
+	margin: 0 0 50px 0;
+	text-transform: uppercase;
+	display: inline-block;
+} */
 h2::after {
 	content: "";
 	width: 50%;
@@ -1812,9 +1820,11 @@ h2::after {
 }
 
 
-/* hover */
-	
-#gta{
+/* tracking */
+#gta .shop{
+  width: 100%;
+}
+/* #gta{
   position: relative;
   background: url(../images/tracking.jpg) no-repeat 0px 0px;
   background-size: cover;
@@ -1828,8 +1838,170 @@ h2::after {
 
 #gta .shop{
   margin: 85% auto 5% 80%;
-}	
+} */
+/* .track-img{
+  width: 140%;
+  height: auto;
+  padding-right: 50px;
+
+} */
+
+/* about */
+#about .cls-img{
+  width: 100%;
+}
+
+#about .content-wrap{
+  font-family: 'Damion', cursive;
+  font-size: 1.5em;
+  position: absolute;
+  text-align: center;
+  width: 16%;
+  margin-top: -38%;
+  margin-left: 9%;
+}
+
+#about .content-wrap-2{
+  font-family: 'Damion', cursive;
+  font-size: 1.5em;
+  position: absolute;
+  text-align: center;
+  width: 16%;
+  margin-top: -38%;
+  margin-left: 28%;
+}
+
+#about .btn-1{
+  position: absolute;
+
+  margin-top: -17%;
+  margin-left: 35%;
+}
+
+/* contact */
+
+#contact .con-img{
+  width: 100%;
+}
+
+#contact .contact-title{
+  position: absolute;
+  margin-top: -53%;
+  margin-left: 55%;
+}
 
 
+#contact .wrapper{
+  position: absolute;
+  margin-top: -48%;
+  margin-left: 55%;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 30px 120px 30px 0;
+  border-radius: 20px;
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+#contact .wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+#contact .wrapper .input_field{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .wrapper .input_field input[type="text"],
+#contact .wrapper textarea{
 
 
+  margin: 20px 40px 20px 20px;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px 170px 10px 10px;
+  width: 100%;
+  color: #c5ecfd
+}
+#contact .wrapper .msg textarea{
+  height: 100px;
+}
+
+#contact .wrapper textarea{
+  resize: none;
+  height: 50px;
+}
+
+#contact .wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  margin-left: 25px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#contact .wrapper .btn input[type="reset"]{
+  border: 0px;
+  margin-top: -15%;
+  margin-left: 15%;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+
+#contact .contact-wrap1{
+  font-size: 1em;
+  position: absolute;
+  text-align: center;
+  width: 16%;
+  margin-top: -39%;
+  margin-left: 11.5%;
+}
+
+#contact .contact-wrap2{
+  font-size: 1em;
+  position: absolute;
+  text-align: center;
+  width: 16%;
+  margin-top: -39%;
+  margin-left: 32.5%;
+}
+
+#contact .contact-wrap3{
+  font-size: 1em;
+  position: absolute;
+  text-align: center;
+  width: 16%;
+  margin-top: -30%;
+  margin-left: 22.5%;
+}
